@@ -1,0 +1,204 @@
+head:
+  title: "Matt Dancho's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hola, soy Josué Fernández"
+  subtitle: "Estudiante de ingeniería"
+  description: "Josué es un estudiante apasionado a la programación, administración y liderazgo, aprovechando las tecnologías emergentes en sus procesos."
+  image:
+    x: "img/showcase/computerCode.gif"
+    _2x: "img/showcase/computerCode.gif"
+  imageMobile:
+    x: "img/showcase/computerCode.gif"
+    _2x: "img/showcase/computerCode.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contacta a Josué"
+    URL: "mailto:josuefdo2008@hotmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/josué-fernández-682846386"
+
+    - icon: "github"
+      URL: "https://github.com/josuefdz-08"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/itsme.jfc/"
+
+    - icon: "facebook"
+      URL: "https://web.facebook.com/josue.fernandez.336332/"
+
+
+# about
+about:
+  enable: true
+  title: "Quien soy?"
+  content: 
+    <p class="lead">
+    <strong>Amo la programación y el trabajo en equipo. 
+    Me apasiona desarrollar proyectos utilizando diversos 
+    lenguajes como C++ y Java, además de asumir roles de 
+    liderazgo en iniciativas con enfoque administrativo y organizacional.
+    </p>
+    <p class="lead">
+    <strong>Mi interés profesional </strong> 
+    se orienta hacia la Inteligencia Artificial y las tecnologías 
+    emergentes, con la visión de integrar sistemas especializados para generar 
+    soluciones innovadoras. Aspiro a contribuir en proyectos que combinen el 
+    conocimiento técnico con el impacto social, buscando siempre crear herramientas
+    que faciliten la toma de decisiones.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Sobre mí"
+    URL: "https://www.linkedin.com/in/josué-fernández-682846386"
+  image:
+    x: "img/who-am-i/faceJump.jpg"
+    _2x: "img/who-am-i/faceJump.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Actualmente no cuento con experiencia laboral profesional, pero aún así he desarrollado proyectos academicos que me han ayudado a desarrollar mis habilidades en distintos lenguajes de programación."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/josué-fernández-682846386"
+
+  items:
+    - title: "Proyecto Airpoort"
+      company: "Programación orientada a objetos"
+      duration: "Agosto 2024 - Noviembre 2024"
+
+    - title: "Gestión de parqueaderos"
+      company: "Algoritmo y programación"
+      duration: "Febrero 2024 - Mayo 2024"
+
+    - title: "Gestión de biblioteca"
+      company: "Estructura de datos"
+      duration: "Agosto 2024 - Noviembre 2024"
+
+# education
+education:
+  enable: true
+  title: "Educación"
+  items:
+    - university: "Institución educativa técnica de comercio Virginia Gómez"
+      year: "2020-2023"
+      degree: "Bachiller académico"
+
+    - university: "Universidad del Magdalena"
+      year: "2024 - 2029"
+      degree: "Ingeniero de sistemas"
+      
+
+
+
+# Client & Work
+client_and_work:
+  title: "Proyectos"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Airpoort"
+      description: "Proyecto final de la asignatura de programación orientada a objetos. Es un programa para la gestión de vuelos de un aeropuerto."
+      button:
+        icon: ""
+        btnText: ""
+        URL: ""
+      image:
+        x: "img/works/airpoort.png"
+        _2x: "img/works/airpoort.png"
+      is_even: true
+
+    - title: "Proyecto gestión biblioteca"
+      description: "Proyecto final de estructura de datos. La aplicación de este programa es para la gestión de una biblioteca."
+
+      image:
+        x: "img/works/ed1.png"
+        _2x: "img/works/ed1.png"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonios"
+  items:
+  
+    - name: "Yanni Moreno"
+      position: "Estudiante ingeniería de sistemas"
+      content: "He tenido la oportunidad de trabajar junto a Josué en diversos proyectos académicos. Su responsabilidad y habilidades técnicas destacaron dentro del equipo, demostrando una gran capacidad de liderazgo y organización."
+      image:
+        x: "img/testimonials/Yanni.jpg"
+        _2x: "img/testimonials/Yanni.jpg"
+        
+
+# contact
+contact:
+  enable: true
+  title: "Contactate con Josué!"
+    
+  image:
+    x: "img/who-am-i/face.png"
+    _2x: "img/who-am-i/face.png"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Envía un mensaje!"
+    btnAction: 'mailto:josuefdo2008@hotmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "+57 3108429059"
+  email:
+    title: "Email"
+    email: '<a href="mailto:josuefdo2008@hotmail.com">josuefdo2008@hotmail.com</a>'
+
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
